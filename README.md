@@ -2,7 +2,7 @@
 
 # Preview
 <p align="center"> 
-  <img src="https://raw.githubusercontent.com/Mangeshrex/Everblush-gtk/tree/main/assets/Everblush-gtk.png">
+  <img src="https://github.com/Mangeshrex/Everblush-gtk/blob/main/assets/Everblush-gtk.png?raw=true">
 </p> 
 
 # Installation 
