@@ -1,6 +1,6 @@
 @define-color borders #1b2224;
 *:selected {
-  color: #dadada
+  color: #dadada;
   background-color: #363d3f;
 }
 
@@ -213,7 +213,7 @@ tabs {
 }
 tabs tab {
   padding: 8px;
-  color: rgba(34, 41, 43, 1);
+  color: #dadada;
   transition: color 200ms ease-in-out, border-color 200ms ease-in-out;
 }
 header tabs tab:checked {
@@ -695,7 +695,7 @@ window.thunar grid *:active {
   border-radius: 3px;
 }
 window.thunar .sidebar {
-  background: url(~/home/mangesh/wallpapers/personal-5.jpg);
+  background: #131a1c;
   padding: 1rem;
 }
 window.thunar treeview {
