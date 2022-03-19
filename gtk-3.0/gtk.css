@@ -146,7 +146,7 @@ combobox button.combo arrow {
 }
 
 placessidebar {
-  background: #22282b;
+  background: #131a1c;
 }
 placessidebar list {
   background: transparent;
@@ -212,12 +212,13 @@ tabs {
   margin-right: -2px;
 }
 tabs tab {
-  padding: 8px;
-  color: #dadada;
+  padding: 5px;
+  color: #787f81;
   transition: color 200ms ease-in-out, border-color 200ms ease-in-out;
+  text-align: center;
 }
 header tabs tab:checked {
-  border-color: #8ed8d1;
+  border-color: #ef7d7d;
   color: #dadada;
 }
 header tabs tab:hover:not(:checked) {
@@ -238,9 +239,9 @@ treeview {
   -GtkTreeView-tree-line-pattern: "";
   -GtkTreeView-horizontal-separator: 8;
   -GtkTreeView-vertical-separator: 8;
-  background: #22292b;
-  border-left-color: #363d3f;
-  border-top-color: #363d3f;
+  background: #131a1c;
+  border-left-color: #131a1c;
+  border-top-color: #131a1c;
 }
 treeview:hover {
   background: #363d3f;
@@ -529,15 +530,16 @@ menubar menuitem:hover {
 }
 
 menu {
-  background: #1b2224;
+  background: #131a1c;
   padding: 10px;
 }
 menu menuitem {
   padding: 8px;
 }
 menu menuitem:hover {
-  background: #8ed8d1;
+  background: #6da4cd;
   color: #181f21;
+  border-radius: 0.3em;
 }
 
 scrollbar {
@@ -703,18 +705,17 @@ window.thunar treeview {
   color: #dadada;
 }
 window.thunar treeview:selected {
-  background: #8ad8ef;
-  color: #181f21;
+  background: #202729;
+  color: #dadada;
   border-radius: 0.5em;
-  font-weight: bold;
 }
 window.thunar .frame {
   border: 0;
 }
 window.thunar toolbar entry {
-  background: #22292b;
+  background: #2c3335;
   border-radius: 10px;
-  margin: 2px 2em 2px 1em;
+  margin: 3px 2em 3px 1em;
   padding: 0px 1rem;
 }
 window.thunar toolbar entry image {
