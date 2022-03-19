@@ -1,8 +1,9 @@
-## [Everblush (uwu)](https://github.com/mangeshrex/uwu.vim) gtk3 theme made with [Phocus-Gtk](https://github.com/phocus/gtk)
+<h2 align="center"> Everblush GTK Theme</h2>
 
 # Preview
 <p align="center"> 
   <img src="https://github.com/Mangeshrex/Everblush-gtk/blob/main/assets/Everblush-gtk.png?raw=true">
+  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=8ccf7e&labelColor=22292b&style=for-the-badge">
 </p> 
 
 # Installation 
@@ -12,7 +13,5 @@ npm install -g scss
 sudo make install 
 ```
 
-# Setup 
-- ```gtk-theme-name=Everblush-gtk```
-- Add this in your `~/.config/gtk-3.0/settings.ini`
-
+# Credits 💝 
+- @siduck 
