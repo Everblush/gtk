@@ -383,6 +383,10 @@ textview:disabled {
   opacity: 0.3;
 }
 
+.view:hover, iconview:hover, .view:hover:focus, iconview:hover:focus, .view text:hover, iconview text:hover, textview text:hover, iconview text:hover:focus, textview text:hover:focus, flowbox flowboxchild:hover, row:hover, .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus, .view text:selected, iconview text:selected, textview text:selected, iconview text:selected:focus, textview text:selected:focus, .view text selection:focus, iconview text selection:focus, .view text selection, iconview text selection, textview text selection:focus, textview text selection, flowbox flowboxchild:selected, entry selection, entry selection:focus, row:selected {
+     background-color: rgba(179, 185, 184, 0.5);
+}
+
 toolbar {
   background: #181f21;
 }
