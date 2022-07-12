@@ -82,7 +82,7 @@ headerbar button.titlebutton.appmenu:not(:active):not(:checked) {
 
 entry {
   transition: all 100ms ease-in-out;
-  background: rgb(24, 31, 33);
+  background: rgba(24, 31, 33, 1);
   border: 2px solid transparent;
   padding: 6px;
   border-radius: 0;
@@ -112,12 +112,12 @@ entry selection {
 
 button {
   transition: background-color 100ms ease-in;
-  background: rgb(24, 31, 33);
+  background: rgba(24, 31, 33, 1);
   padding: 8px;
 }
 
 button:hover:not(:active) {
-  background: rgb(54, 61, 63);
+  background: rgba(54, 61, 63, 1);
 }
 
 button:disabled {
@@ -175,7 +175,7 @@ combobox button.combo arrow {
 }
 
 placessidebar {
-  background: #0f1619;
+  background: #131a1c;
 }
 
 placessidebar list {
@@ -503,7 +503,7 @@ list row:hover {
 checkbutton check {
   -gtk-icon-source: -gtk-recolor(url("../assets/symbolic/check.symbolic.png"));
   -gtk-icon-transform: scale(0);
-  color: rgb(189, 195, 194);
+  color: rgba(189, 195, 194, 1);
   border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 1px;
   padding: 1px;
@@ -550,11 +550,11 @@ radiobutton radio {
 }
 
 radiobutton radio:hover {
-  border-color: rgb(54, 61, 63);
+  border-color: rgba(54, 61, 63, 1);
 }
 
 radiobutton radio:active, radiobutton radio:checked {
-  background: rgb(54, 61, 63);
+  background: rgba(54, 61, 63, 1);
 }
 
 radiobutton radio:checked {
@@ -858,7 +858,7 @@ window.thunar toolbar entry {
 }
 
 window.thunar toolbar entry image {
-  background-image: image(rgb(54, 61, 63));
+  background-image: image(rgba(54, 61, 63, 1));
 }
 
 window.thunar paned grid {
@@ -890,6 +890,5 @@ window widget {
 }
 
 /*# sourceMappingURL=gtk.css.map */
-/*# sourceMappingURL=gtk.scss.map */
 
-/*# sourceMappingURL=gtk.css.map */
+/*# sourceMappingURL=gtk.scss.map */

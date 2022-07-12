@@ -1,10 +1,10 @@
-PREFIX = /usr
+PREFIX = ${pwd}
 DESTDIR ?=
-INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/Everblush-gtk
+INSTALL_DIR ?=$(PREFIX)/.themes/Everblush-gtk
 
 all:
 	mkdir -p gtk-3.0
-	sass src/gtk-3.0/gtk.scss gtk-3.0/gtk.css
+	sass gtk-3.0/gtk.scss gtk-3.0/gtk.css
 
 install:
 	@install -v -d "$(INSTALL_DIR)"
