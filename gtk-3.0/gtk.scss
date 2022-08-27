@@ -4,7 +4,7 @@
   background-color: #363d3f;
 }
 
-@define-color borders #232a2d;
+@define-color borders #1e2528;
 window,
 dialog,
 messagedialog {
@@ -25,7 +25,7 @@ messagedialog box {
 }
 
 headerbar {
-  background: #232a2d;
+  background: #1e2528;
   padding: 6px;
 }
 
@@ -82,7 +82,7 @@ headerbar button.titlebutton.appmenu:not(:active):not(:checked) {
 
 entry {
   transition: all 100ms ease-in-out;
-  background: rgba(24, 31, 33, 1);
+  background: rgb(24, 31, 33);
   border: 2px solid transparent;
   padding: 6px;
   border-radius: 0;
@@ -112,12 +112,12 @@ entry selection {
 
 button {
   transition: background-color 100ms ease-in;
-  background: rgba(24, 31, 33, 1);
+  background: rgb(24, 31, 33);
   padding: 8px;
 }
 
 button:hover:not(:active) {
-  background: rgba(54, 61, 63, 1);
+  background: rgb(54, 61, 63);
 }
 
 button:disabled {
@@ -175,15 +175,17 @@ combobox button.combo arrow {
 }
 
 placessidebar {
-  background: #131a1c;
+  background: #0f1619;
 }
 
 placessidebar list {
   background: transparent;
+  border-radius: 20px;
 }
 
 placessidebar list row:hover {
-  background: rgba(0, 0, 0, 0.2);
+  background: #1e2528;
+  border-radius: 20px;
 }
 
 placessidebar list row .sidebar-icon {
@@ -195,7 +197,7 @@ placessidebar.frame, placessidebar .frame {
 }
 
 popover {
-  background: #232a2d;
+  background: #1e2528;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
@@ -205,7 +207,7 @@ popover box modelbutton {
 }
 
 popover box modelbutton:hover {
-  background: #232a2d;
+  background: #1e2528;
 }
 
 popover.menu:first-child {
@@ -221,7 +223,7 @@ tabs {
 }
 
 .top > tabs {
-  border-bottom: 2px solid #232a2d;
+  border-bottom: 2px solid #1e2528;
 }
 
 .top > tabs tab {
@@ -230,7 +232,7 @@ tabs {
 }
 
 .right > tabs {
-  border-left: 2px solid #232a2d;
+  border-left: 2px solid #1e2528;
 }
 
 .right > tabs tab {
@@ -239,7 +241,7 @@ tabs {
 }
 
 .bottom > tabs {
-  border-top: 2px solid #232a2d;
+  border-top: 2px solid #1e2528;
 }
 
 .bottom > tabs tab {
@@ -248,7 +250,7 @@ tabs {
 }
 
 .left > tabs {
-  border-right: 2px solid #232a2d;
+  border-right: 2px solid #1e2528;
 }
 
 .left > tabs tab {
@@ -273,7 +275,7 @@ header tabs tab:hover:not(:checked) {
 }
 
 header tabs {
-  background: #232a2d;
+  background: #1e2528;
 }
 
 dialog header tabs > tab > label {
@@ -286,9 +288,9 @@ treeview {
   -GtkTreeView-tree-line-pattern: "";
   -GtkTreeView-horizontal-separator: 8;
   -GtkTreeView-vertical-separator: 8;
-  background: #131a1c;
-  border-left-color: #131a1c;
-  border-top-color: #131a1c;
+  background: #0f1619;
+  border-left-color: #0f1619;
+  border-top-color: #0f1619;
 }
 
 treeview:hover {
@@ -301,13 +303,13 @@ treeview:selected {
 }
 
 treeview.separator {
-  color: #232a2d;
+  color: #1e2528;
   min-height: 2px;
 }
 
 treeview header button {
   border-bottom: 1px solid #363d3f;
-  background: #232a2d;
+  background: #1e2528;
 }
 
 treeview header button:hover {
@@ -472,7 +474,7 @@ toolbar.osd {
 }
 
 frame.app-notification border {
-  background: #232a2d;
+  background: #1e2528;
   border: 0;
 }
 
@@ -481,7 +483,7 @@ frame > border {
 }
 
 .frame {
-  border: 1px solid #232a2d;
+  border: 1px solid #1e2528;
 }
 
 scrolledwindow viewport.frame {
@@ -489,7 +491,7 @@ scrolledwindow viewport.frame {
 }
 
 list {
-  background: #232a2d;
+  background: #1e2528;
 }
 
 list row {
@@ -503,7 +505,7 @@ list row:hover {
 checkbutton check {
   -gtk-icon-source: -gtk-recolor(url("../assets/symbolic/check.symbolic.png"));
   -gtk-icon-transform: scale(0);
-  color: rgba(189, 195, 194, 1);
+  color: rgb(189, 195, 194);
   border: 2px solid rgba(255, 255, 255, 0.05);
   border-radius: 1px;
   padding: 1px;
@@ -550,16 +552,16 @@ radiobutton radio {
 }
 
 radiobutton radio:hover {
-  border-color: rgba(54, 61, 63, 1);
+  border-color: rgb(54, 61, 63);
 }
 
 radiobutton radio:active, radiobutton radio:checked {
-  background: rgba(54, 61, 63, 1);
+  background: rgb(54, 61, 63);
 }
 
 radiobutton radio:checked {
   -gtk-icon-transform: scale(1);
-  border-color: #ee9cdd;
+  border-color: #8ad8ef;
 }
 
 radiobutton label {
@@ -631,7 +633,7 @@ menubar menuitem:hover {
 }
 
 menu {
-  background: #131a1c;
+  background: #0f1619;
   padding: 10px;
 }
 
@@ -831,7 +833,7 @@ window.thunar grid *:active {
 }
 
 window.thunar .sidebar {
-  background: #131a1c;
+  background: #0f1619;
   padding: 1rem;
 }
 
@@ -841,7 +843,7 @@ window.thunar treeview {
 }
 
 window.thunar treeview:selected {
-  background: #202729;
+  background: #1e2529;
   color: #dadada;
   border-radius: 0.5em;
 }
@@ -858,7 +860,7 @@ window.thunar toolbar entry {
 }
 
 window.thunar toolbar entry image {
-  background-image: image(rgba(54, 61, 63, 1));
+  background-image: image(rgb(54, 61, 63));
 }
 
 window.thunar paned grid {
@@ -866,7 +868,7 @@ window.thunar paned grid {
 }
 
 window.thunar toolbar {
-  background: #232a2d;
+  background: #1e2528;
   padding: 5px 0;
 }
 
@@ -875,7 +877,7 @@ window.thunar toolbar * {
 }
 
 window.thunar separator {
-  background-image: image(#131a1c);
+  background-image: image(#0f1619);
   background-size: 1px 1px;
   background-position: center center;
 }
@@ -889,6 +891,23 @@ window widget {
   background-color: #141b1e;
 }
 
+cursor-handle {
+  background-color: transparent;
+  background-image: none;
+  box-shadow: none;
+  border-style: none;
+}
+
+cursor-handle.top {
+  -gtk-icon-source: -gtk-icontheme("selection-start-symbolic");
+}
+
+cursor-handle.bottom {
+  -gtk-icon-source: -gtk-icontheme("selection-end-symbolic");
+}
+
+/*# sourceMappingURL=gtk.css.map */
+/*# sourceMappingURL=gtk.scss.map */
 /*# sourceMappingURL=gtk.css.map */
 
 /*# sourceMappingURL=gtk.scss.map */
