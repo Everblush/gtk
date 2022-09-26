@@ -18,8 +18,9 @@
 # Installation 
 ```sh 
 git clone https://github.com/Everblush/gtk
-npm install -g scss 
-sudo make install 
+cd gtk
+npm install -g scss
+sudo make install
 ```
 
 # Credits 💝 
