@@ -1,3 +1,4 @@
+# Credits to viper for helping me write the flake (it was inspired the flake from https://github.com/viperML/nh)
 {
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
