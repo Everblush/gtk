@@ -4,7 +4,7 @@ INSTALL_DIR ?= $(DESTDIR)$(PREFIX)/share/themes/Everblush
 
 all:
 	mkdir -p gtk-3.0
-	sass src/gtk-3.0/gtk.scss gtk-3.0/gtk.css
+	sass scss/gtk-3.0/gtk.scss gtk-3.0/gtk.css
 
 install:
 	@install -v -d "$(INSTALL_DIR)"
